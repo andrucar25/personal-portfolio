@@ -1,0 +1,40 @@
+{
+    "header":{
+        "description":"I am Andrés De la Barra Vásquez, a system engineering graduate and I currently live in Peru. I am dedicated to Frontend web development and mobile application development, constantly using modern technologies, frameworks and libraries, being React the main one I use today.",
+        "button": "SEE MY RESUME"
+    },
+    "skills":{
+        "title":"SKILLS"
+    },
+    "projects":{
+        "title":"PROJECTS",
+        "button":"Repository"
+    },
+    "experience":{
+        "title":"EXPERIENCE AND EDUCATION",
+        "education":[
+            {
+                "title":"Systems Engineering",
+                "school":"Universidad Privada de Tacna",
+                "description":"Programming, Mathematics, Database, Networks, Project Management"
+            },
+            {
+                "title":"English Language",
+                "school":"Language Center of Universidad Privada de Tacna",
+                "description":"Completed the advanced level of English"
+            }
+        ],
+        "jobs":[
+            {
+                "title":"Computer Operator",
+                "workplace":"Instituto Nacional de Estadística e Informática - Perú",
+                "description":"Responsible for verifying teachers through the use of special software, scanner and tablet, also inventory answer sheets, booklets and attendance lists."
+            },
+            {
+                "title":"Web Application Developer and IT Support",
+                "workplace":"Aeromater S.A. - Perú",
+                "description":"Development of virtual document management application with HTML5 | Tailwind CSS | PHP | Laravel | MySQL"
+            }
+        ]
+    }
+}

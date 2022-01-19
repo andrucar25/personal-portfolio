@@ -1,0 +1,230 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --BackgroundHeader: #e9d5a1;
+  --Title: #353239;
+  --Text: #212529;
+  --BackgroundExperience: #efe1bd;
+  --ExperienceTitle: #ae944f;
+  --White: #ffff;
+  --Black: #0000;
+  --SkillBack: #1f1f1f;
+  --Card: #3b4040;
+
+  --BgProjects: #dbc07b;
+  --Footer: #1f1f1f;
+
+  --HoverBoton: #ececec;
+  --DarkBlue: #494949;
+
+  /*300,600,700*/
+
+  --BackgroundHeaderDark: #494949;
+  --BackgroundSkills: #7f7f7f;
+  --BgExperience: #5b5b5b;
+  --BgProjectsDark: #1f1f1f;
+  --BgIconExperience: #919191;
+  --BgCardDark: #363636;
+  --BgSliderDark: #8c8c8c;
+}
+
+/*********************** HEADER **************************/
+
+.header {
+  background-color: var(--BackgroundHeader);
+}
+
+[data-theme="dark"],
+[data-theme="dark"] .header {
+  background-color: var(--BackgroundHeaderDark);
+}
+
+.title {
+  color: var(--Title);
+  font-weight: 700;
+}
+
+[data-theme="dark"],
+[data-theme="dark"] .title {
+  color: var(--White);
+}
+
+.paragraph {
+  color: var(--Text);
+  font-weight: 300;
+}
+
+[data-theme="dark"],
+[data-theme="dark"] .paragraph {
+  color: var(--White);
+}
+
+.buttonCV {
+  background-color: var(--White);
+  color: var(--Title);
+  font-weight: 700;
+}
+
+.buttonCV:hover {
+  background-color: var(--HoverBoton);
+}
+
+.icon_header:hover {
+  opacity: 0.5;
+}
+
+/*********************** SKILLS **************************/
+.skills {
+  background-color: var(--White);
+}
+
+[data-theme="dark"],
+[data-theme="dark"] .skills {
+  background-color: var(--BackgroundSkills);
+}
+
+.skills__title {
+  color: var(--Title);
+  font-weight: 700;
+  letter-spacing: 5px;
+}
+
+[data-theme="dark"],
+[data-theme="dark"] .skills__title {
+  color: var(--White);
+}
+
+.skill__card {
+  background-color: var(--Card);
+}
+
+.skill__text {
+  color: var(--White);
+}
+
+/*********************** PROJECTS **************************/
+
+.projects {
+  background-color: var(--BgProjects);
+}
+
+[data-theme="dark"],
+[data-theme="dark"] .projects {
+  background-color: var(--BgProjectsDark);
+}
+
+.card {
+  background-color: var(--White);
+}
+
+[data-theme="dark"],
+[data-theme="dark"] .card {
+  background-color: var(--BgCardDark);
+}
+
+.project__title {
+  color: var(--SkillBack);
+  letter-spacing: 2px;
+}
+
+[data-theme="dark"],
+[data-theme="dark"] .project__title {
+  color: var(--White);
+}
+
+/*********************** MODAL **************************/
+
+.modal__bg {
+  background-color: var(--White);
+}
+
+[data-theme="dark"],
+[data-theme="dark"] .modal__bg {
+  background-color: var(--BgCardDark);
+}
+
+[data-theme="dark"],
+[data-theme="dark"] .modal__title {
+  color: var(--White);
+}
+.border__slider {
+  border-color: var(--BackgroundExperience);
+}
+
+[data-theme="dark"],
+[data-theme="dark"] .border__slider {
+  border-color: var(--BgSliderDark);
+}
+
+.tech__card {
+  background-color: var(--Card);
+}
+
+.tech__card__desc {
+  color: var(--White);
+}
+
+.modal__button__repo {
+  background-color: var(--White);
+  color: var(--SkillBack);
+  border: 1px solid var(--SkillBack);
+}
+
+.modal__button__repo:hover {
+  background-color: var(--SkillBack);
+  color: var(--White);
+}
+
+.modal__icon__buton:hover {
+  color: var(--White);
+}
+
+.modal__description {
+  color: var(--Footer);
+}
+
+[data-theme="dark"],
+[data-theme="dark"] .modal__description {
+  color: var(--White);
+}
+
+/*********************** EXPERIENCE **************************/
+
+.experience {
+  background-color: var(--BackgroundExperience);
+}
+
+[data-theme="dark"],
+[data-theme="dark"] .experience {
+  background-color: var(--BgExperience);
+}
+
+.experience__title {
+  color: var(--Text);
+  font-weight: 700;
+}
+
+.experience__sub {
+  color: var(--Text);
+  font-weight: 400;
+}
+
+.testing {
+  color: var(--SkillBack);
+}
+
+[data-theme="dark"],
+[data-theme="dark"] .testing {
+  color: var(--White);
+}
+
+/*********************** FOOTER **************************/
+.footer {
+  background-color: var(--Footer);
+}
+
+.footer__text {
+  color: var(--White);
+}

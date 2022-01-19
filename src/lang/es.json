@@ -1,0 +1,41 @@
+{
+    "header":{
+        "description":"Soy Andrés De la Barra Vásquez, egresado de ingeniería de sistemas y actualmente vivo en Perú. Me dedico al desarrollo Frontend web y desarrollo de aplicaciones móviles, constantemente utilizando tecnologías, frameworks y librerías modernas, siendo React la principal que utilizo hoy en día.",
+        "button": "VER MI CV"
+    },
+    "skills":{
+        "title":"HABILIDADES"
+    },
+    "projects":{
+        "title":"PROYECTOS",
+        "button":"Repositorio"
+    },
+    "experience":{
+        "title":"EXPERIENCIA Y EDUCACIÓN",
+        "education":[
+            {
+                "title":"Ingeniería de Sistemas",
+                "school":"Universidad Privada de Tacna",
+                "description":"Programación, Matemática, Base de Datos, Redes, Gestión de proyectos"
+            },
+            {
+                "title":"Idioma Inglés",
+                "school":"Centro de Idiomas de la Universidad Privada de Tacna",
+                "description":"Culminado el nivel avanzado de inglés"
+            }
+        ],
+        "jobs":[
+            {
+                "title":"Operador Informático",
+                "workplace":"Instituto Nacional de Estadística e Informática - Perú",
+                "description":"Responsable de hacer la verificación de docentes mediante el uso de software especial, escáner y tablet, también realizar el inventario de fichas de respuestas, cuadernillos y listas de asistencias."
+            },
+            {
+                "title":"Programador de aplicaciones web y Soporte de TI",
+                "workplace":"Aeromater S.A. - Perú",
+                "description":"Desarrollo de la aplicación para mesa de partes virtual con HTML5 | Tailwind CSS | PHP | Laravel | MySQL"
+            }
+        ]
+    }
+
+}
