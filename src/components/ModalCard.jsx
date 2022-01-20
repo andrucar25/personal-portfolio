@@ -77,14 +77,22 @@ export default function ModalCard({ project, setOpenModal, projectsLanguage }) {
                   {project.title}
                 </h3>
                 <div className="py-4 flex flex-row flex-wrap gap-5">
-                  <a href={project.repository} target="_blank">
+                  <a
+                    href={project.repository}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <button className="modal__button__repo text-sm inline-flex items-center cursor-pointer rounded-xl py-2 px-4 2xl:text-xl">
                       <AiFillGithub className="modal__icon__buton mr-2" />
                       {projectsLanguage.button}
                     </button>
                   </a>
 
-                  <a href={project.demo} target="_blank">
+                  <a
+                    href={project.demo}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <button className="modal__button__repo text-sm inline-flex items-center cursor-pointer rounded-xl py-2 px-4 2xl:text-xl">
                       <BsFillPlayFill className="modal__icon__buton mr-2" />
                       Demo

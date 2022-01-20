@@ -45,6 +45,7 @@ export default function ResponsiveBar({ setMenuResponsiveOpen }) {
           className="icon_header flex flex-row w-full items-center gap-2"
           href="https://github.com/andrucar25"
           target="_blank"
+          rel="noopener noreferrer"
         >
           <AiFillGithub
             color={theme === "light" ? "black" : "white"}
@@ -57,6 +58,7 @@ export default function ResponsiveBar({ setMenuResponsiveOpen }) {
           className="icon_header flex flex-row w-full items-center gap-2"
           href="https://www.linkedin.com/in/andr%C3%A9s-de-la-barra-v%C3%A1squez/"
           target="_blank"
+          rel="noopener noreferrer"
         >
           <AiFillLinkedin
             color={theme === "light" ? "black" : "white"}

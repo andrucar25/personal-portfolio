@@ -8,7 +8,7 @@ import { Icon } from "@iconify/react";
 
 import Switch from "react-switch";
 import Flags from "country-flag-icons/react/3x2";
-import Typical from "react-typical";
+import Typical from 'react-typical';
 
 import GreetingLottie from "../components/DisplayLottie";
 import Skills from "../components/Skills";
@@ -69,6 +69,7 @@ export default function Home({ header, skills, projectsLanguage, experience }) {
       />
     );
   });
+  HeaderTitleTypeAnimation.displayName = 'HeaderTitleTypeAnimation';
 
   if (!mounted) return null;
 
@@ -191,7 +192,7 @@ export default function Home({ header, skills, projectsLanguage, experience }) {
                 className="icon_header"
                 href="https://github.com/andrucar25"
                 target="_blank"
-                rel="noopener"
+                rel="noopener noreferrer"
               >
                 <AiFillGithub
                   color={theme === "light" ? "black" : "white"}
@@ -203,7 +204,7 @@ export default function Home({ header, skills, projectsLanguage, experience }) {
                 className="icon_header"
                 href="https://www.linkedin.com/in/andr%C3%A9s-de-la-barra-v%C3%A1squez/"
                 target="_blank"
-                rel="noopener"
+                rel="noopener noreferrer"
               >
                 <AiFillLinkedin
                   color={theme === "light" ? "black" : "white"}
@@ -226,6 +227,7 @@ export default function Home({ header, skills, projectsLanguage, experience }) {
                 <a
                   href="https://drive.google.com/file/d/11D--AMvsq78lkocWoAuBRrFSv0U58Gyg/view?usp=sharing"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <button className="buttonCV inline-flex items-center px-4 py-2 rounded-md shadow-lg transform transition hover:scale-105 2xl:text-2xl 2xl:mt-5">
                     <CgFileDocument className="mr-2" color="black" />

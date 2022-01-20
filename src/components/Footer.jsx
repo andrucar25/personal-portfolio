@@ -7,7 +7,11 @@ export default function Footer() {
   return (
     <div className="w-full max-w-7xl pt-11 pb-6">
       <div className="flex flex-row h-full justify-center">
-        <a href="https://github.com/andrucar25" target="_blank">
+        <a
+          href="https://github.com/andrucar25"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           {" "}
           <AiFillGithub
             color="white"
@@ -18,6 +22,7 @@ export default function Footer() {
         <a
           href="https://www.linkedin.com/in/andr%C3%A9s-de-la-barra-v%C3%A1squez/"
           target="_blank"
+          rel="noopener noreferrer"
         >
           <AiFillLinkedin
             color="white"
