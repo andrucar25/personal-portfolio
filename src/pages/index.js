@@ -81,7 +81,7 @@ export default function Home({ header, skills, projectsLanguage, experience }) {
           description:
             "Egresado de ingeniería de sistemas, apasionado por el desarrollo frontend web y móvil .",
           image: "https://avatars.githubusercontent.com/u/48532190?v=4",
-          url: "https://commentsection-tsreact.netlify.app/",
+          url: "https://personal-portfolio-andreseduardo.vercel.app/",
           keywords: [
             "Andrés Eduardo",
             "Andrés De la Barra Vásquez",
@@ -225,7 +225,7 @@ export default function Home({ header, skills, projectsLanguage, experience }) {
 
               <div className="mt-5">
                 <a
-                  href="https://drive.google.com/file/d/11D--AMvsq78lkocWoAuBRrFSv0U58Gyg/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1tr92Sw1xJ2WksWsMjrLMEj_HDnNvGZ8S/view?usp=sharing"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
