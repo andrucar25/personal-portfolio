@@ -225,7 +225,7 @@ export default function Home({ header, skills, projectsLanguage, experience }) {
 
               <div className="mt-5">
                 <a
-                  href="https://drive.google.com/file/d/1tr92Sw1xJ2WksWsMjrLMEj_HDnNvGZ8S/view?usp=sharing"
+                  href={language === "es" ? "https://drive.google.com/file/d/1tr92Sw1xJ2WksWsMjrLMEj_HDnNvGZ8S/view?usp=sharing" : "https://drive.google.com/file/d/1UXBTkHHEk_IKppbcQXScpfTIh4AxIMmA/view?usp=sharing"}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
