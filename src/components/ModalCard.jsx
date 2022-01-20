@@ -39,7 +39,7 @@ export default function ModalCard({ project, setOpenModal, projectsLanguage }) {
             <div className="border__slider border-8 border-solid ">
               <AwesomeSlider
                 animation="scaleOutAnimation"
-                className="h-72 sm:h-72 md:h-80  xl:h-96 2xl:h-auto"
+                className="h-60 sm:h-72 md:h-80  xl:h-96 2xl:h-auto"
               >
                 <div className="relative w-full h-full">
                   <Image
