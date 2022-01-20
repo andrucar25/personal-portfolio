@@ -36,7 +36,7 @@ export default function ModalCard({ project, setOpenModal, projectsLanguage }) {
             />
           </div>
           <div className="modal__bg px-5 sm:px-10 lg:px-24 py-7 flex flex-col">
-            <div className="border__slider border-8 border-solid md:flex hidden">
+            <div className="border__slider border-8 border-solid ">
               <AwesomeSlider
                 animation="scaleOutAnimation"
                 className="h-72 sm:h-72 md:h-80  xl:h-96 2xl:h-auto"
@@ -68,7 +68,7 @@ export default function ModalCard({ project, setOpenModal, projectsLanguage }) {
               </AwesomeSlider>
             </div>
 
-            <div className="md:pt-16 text-left">
+            <div className="pt-16 text-left">
               <div>
                 <h3
                   className="modal__title text-lg leading-6 font-medium text-gray-900 2xl:text-2xl"

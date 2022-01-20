@@ -220,6 +220,10 @@
   color: var(--White);
 }
 
+.date__timeline{
+  color:black;
+}
+
 /*********************** FOOTER **************************/
 .footer {
   background-color: var(--Footer);
@@ -228,3 +232,5 @@
 .footer__text {
   color: var(--White);
 }
+
+

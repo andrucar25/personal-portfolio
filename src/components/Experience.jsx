@@ -1,3 +1,4 @@
+import { useState, useEffect } from "react";
 import {
   VerticalTimeline,
   VerticalTimelineElement,
@@ -11,17 +12,28 @@ import { useThemeChange } from "../context/themeContext";
 
 export default function Experience({ experience }) {
   const { theme } = useThemeChange();
+  const [width, setWidth] = useState(0);
+  function updateWidth(){
+    setWidth(window.innerWidth);
+}
+  useEffect(() => {
+ 
+    updateWidth();
+},[] )
 
   return (
-    <div className="w-3/4 max-w-7xl flex flex-col items-center my-6">
+    <div className="w-11/12 sm:w-3/4 max-w-7xl flex flex-col items-center my-6">
       <h2 className="skills__title text-3xl py-8 2xl:text-4xl">
         {experience.title}
       </h2>
 
-      <VerticalTimeline>
+      <VerticalTimeline
+        animate={width < 640 ? false : true}
+      >
         <VerticalTimelineElement
           className="testing"
           date="08/2021 - 11/2021"
+          dateClassName={'date__timeline'}
           contentStyle={
             theme === "light"
               ? { background: "white" }
@@ -48,6 +60,7 @@ export default function Experience({ experience }) {
         <VerticalTimelineElement
           className="vertical-timeline-element--work testing"
           date="07/2019 - 07/2019"
+          dateClassName={'date__timeline'}
           contentStyle={
             theme === "light"
               ? { background: "white" }
@@ -74,6 +87,7 @@ export default function Experience({ experience }) {
         <VerticalTimelineElement
           className="vertical-timeline-element--work testing"
           date="01/2018 - 02/2019"
+          dateClassName={'date__timeline'}
           contentStyle={
             theme === "light"
               ? { background: "white" }
@@ -102,6 +116,7 @@ export default function Experience({ experience }) {
         <VerticalTimelineElement
           className="vertical-timeline-element--work testing"
           date="03/2016 - 07/2021"
+          dateClassName={'date__timeline'}
           contentStyle={
             theme === "light"
               ? { background: "white" }
