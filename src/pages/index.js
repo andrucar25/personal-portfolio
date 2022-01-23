@@ -118,8 +118,8 @@ export default function Home({ header, skills, projectsLanguage, experience }) {
         }}
       />
 
-      <header className="header xl:h-screen flex flex-col items-center">
-        <section className="xl:h-screen w-5/6  xl:w-3/4  max-w-7xl ">
+      <header className="header  2xl:h-auto  flex flex-col items-center">
+        <section className=" 2xl:h-auto w-5/6  xl:w-3/4  max-w-7xl ">
           <nav className="w-full flex flex-row pt-6 justify-between ">
             {menuResponsiveOpen ? (
               <ResponsiveBar setMenuResponsiveOpen={setMenuResponsiveOpen} />
@@ -215,7 +215,7 @@ export default function Home({ header, skills, projectsLanguage, experience }) {
             </div>
           </nav>
 
-          <div className="h-2/4 lg:h-4/5 w-full grid grid-cols-1 pt-20 lg:py-0 lg:grid-cols-2 max-w-7xl">
+          <div className="h-2/4 lg:h-4/5  xl:py-10 2xl:py-28 w-full grid grid-cols-1 pt-20 lg:py-0 lg:grid-cols-2 max-w-7xl">
             <div className="h-full w-full flex flex-col  lg:justify-center">
               <HeaderTitleTypeAnimation />
 
