@@ -52,7 +52,7 @@ export const projectsES = [
         description: "Este proyecto consume una API online gratis de IPs y usa la libreria de mapas leaflet, permite que el usuario ingrese una direccion ip para luego presionar el boton de la flecha y a continuacion, mostrar la informacion de ese ip, asi como la direccion exacta con un punto en el mapa. Si no se ingresa ninguna ip entonces se mostrara la ip del dispositivo actual.",
         technologies:['React','JavaScript', 'HTML5', 'CSS3'],
         repository:"https://github.com/andrucar25/IpAddressTracker-React",
-        demo:"iptracker-react.netlify.app"
+        demo:"https://iptracker-react.netlify.app/"
     },
     {
         id: "5",
