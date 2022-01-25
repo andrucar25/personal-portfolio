@@ -38,7 +38,7 @@ export const projectsES = [
         description: "Este proyecto muestra un listado de trabajos de un archivo local, incluyendo también las categorías a la que pertenecen, haciendo click a cada una se filtra la lista.",
         technologies:['React','JavaScript','Redux','Tailwind CSS', 'HTML5', 'CSS3'],
         repository:"https://github.com/andrucar25/JobListing-React-Redux",
-        demo:"https://joblist-react-redux.netlify.app/"
+        demo:"https://joblist-redux-react.netlify.app/"
 
     },
     {
@@ -111,7 +111,7 @@ export const projectsEN = [
         description: "This project shows a job list from a local file, including the category to which they belong, clicking on each one filters the list.",
         technologies:['React','JavaScript','Redux','Tailwind CSS', 'HTML5', 'CSS3'],
         repository:"https://github.com/andrucar25/JobListing-React-Redux",
-        demo:"https://joblist-react-redux.netlify.app/"
+        demo:"https://joblist-redux-react.netlify.app/"
 
     },
     {
