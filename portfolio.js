@@ -62,10 +62,10 @@ export const projectsES = [
                 image2:"/images/Image1_TodoModern.png",
                 image3:"/images/Image2_TodoModern.png",
         },
-        description: "Este proyecto muestra el clásico TODO de una manera más moderna, en la parte superior se ingresa la tarea y presiona el circulo de la izquierda, tambien se listan las tareas, las cuales se pueden eliminar. Abajo esta el contador de tareas pendientes y los filtros, ademas se puede arrastrar cada una y reordenarlas. Finalmente se incluye el modo oscuro y luz.",
+        description: "Este proyecto muestra el clásico TODO de una manera más moderna, en la parte superior se ingresa la tarea y presiona el circulo de la izquierda, tambien se listan las tareas, las cuales se pueden eliminar. Abajo esta el contador de tareas pendientes y los filtros(aquí el filtro por defecto es el listado completo de tareas, para pasar al filtro de tareas activas, completadas o al boton de limpiar, primero hay que estar en el filtro de tareas activas), ademas se puede arrastrar cada una y reordenarlas. Finalmente se incluye el modo oscuro y luz.",
         technologies:['React','JavaScript', 'HTML5', 'CSS3'],
         repository:"https://github.com/andrucar25/Modern-TodoApp-React",
-        demo:"https://todo-modern-react.netlify.app/"
+        demo:"https://moderntodo-react.netlify.app/"
     },
    
 
@@ -111,7 +111,7 @@ export const projectsEN = [
         description: "This project shows a job list from a local file, including the category to which they belong, clicking on each one filters the list.",
         technologies:['React','JavaScript','Redux','Tailwind CSS', 'HTML5', 'CSS3'],
         repository:"https://github.com/andrucar25/JobListing-React-Redux",
-        demo:"https://joblisting-react-redux.netlify.app/"
+        demo:"https://joblist-react-redux.netlify.app/"
 
     },
     {
@@ -125,7 +125,7 @@ export const projectsEN = [
         description: "This project consumes a free online API of IPs and uses the leaflet map library, it allows the user to input an ip address and then press the button with arrow to inmediatly, show information about the ip, as well as the exact address with an indicator on the map. If no IP is enter, then the current device ip will be displayed.",
         technologies:['React','JavaScript', 'HTML5', 'CSS3'],
         repository:"https://github.com/andrucar25/IpAddressTracker-React",
-        demo:"https://ipadresstracker-react.netlify.app/"
+        demo:"https://iptracker-react.netlify.app/"
     },
     {
         id: "5",
@@ -135,10 +135,10 @@ export const projectsEN = [
                 image2:"/images/Image1_TodoModern.png",
                 image3:"/images/Image2_TodoModern.png",
         },
-        description: "This project shows the classic TODO in a modern way, at the top you enter a task and click on the left, the tasks are also listed, which can be deleted. Below is the TODO counter and filters, you can also drag each one and reorder them. Finally you can select between dark and light theme.",
+        description: "This project shows the classic TODO in a modern way, at the top you enter a task and click on the left, the tasks are also listed, which can be deleted. Below is the TODO counter and filters(here the default filter is the complete list of tasks, to go to the filter of active tasks, completed or to the clean button, you must first be in the filter of active tasks), you can also drag each one and reorder them. Finally you can select between dark and light theme.",
         technologies:['React','JavaScript', 'HTML5', 'CSS3'],
         repository:"https://github.com/andrucar25/Modern-TodoApp-React",
-        demo:"https://todo-modern-react.netlify.app/"
+        demo:"https://moderntodo-react.netlify.app/"
     },
    
 
