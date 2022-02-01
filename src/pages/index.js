@@ -25,7 +25,7 @@ export default function Home({ header, skills, projectsLanguage, experience }) {
   const router = useRouter();
 
   const [mounted, setMounted] = useState(false);
-  const { theme, setTheme } = useThemeChange('light');
+  const { theme, setTheme } = useThemeChange();
   const { language, setLanguage } = useLanguageChange();
   const [checked, setChecked] = useState(false);
   const [menuResponsiveOpen, setMenuResponsiveOpen] = useState(false);
