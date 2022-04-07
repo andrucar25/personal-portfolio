@@ -12,7 +12,7 @@ import {
   DiMysql,
   DiPostgresql,
   DiMongodb,
-  DiPhp,
+  DiNodejsSmall,
   DiGit,
 } from "react-icons/di";
 import { FaLaravel } from "react-icons/fa";
@@ -78,8 +78,8 @@ export default function Skills({ skills }) {
           <p className="skill__text mt-1 2xl:text-xl">Next.js</p>
         </div>
         <div className="skill__card flex flex-col items-center py-3 px-6  rounded-lg w-28 2xl:w-32 transform transition hover:scale-105">
-          <DiPhp color="white" size={"50px"} className="2xl:w-16 2xl:h-16" />
-          <p className="skill__text mt-1 2xl:text-xl">PHP</p>
+          <DiNodejsSmall color="white" size={"50px"} className="2xl:w-16 2xl:h-16" />
+          <p className="skill__text mt-1 2xl:text-xl">Node.js</p>
         </div>
         <div className="skill__card flex flex-col items-center py-3 px-6  rounded-lg w-28 2xl:w-32 transform transition hover:scale-105">
           <FaLaravel
