@@ -34,6 +34,11 @@
                 "title":"Programador de aplicaciones web y Soporte de TI",
                 "workplace":"Aeromater S.A. - Perú",
                 "description":"Desarrollo de la aplicación para mesa de partes virtual con HTML5 | Tailwind CSS | PHP | Laravel | MySQL"
+            },
+            {
+                "title":"Desarrollador Frontend",
+                "workplace":"EDteam - Perú",
+                "description":"Desarrollo de componentes para la antigua y nueva plataforma de cursos, utilizando React | Next.js | Typescript | Javascript | Redux"
             }
         ]
     }

@@ -27,6 +27,32 @@ export default function Experience({ experience }) {
       </h2>
 
       <VerticalTimeline animate={width < 640 ? false : true}>
+      <VerticalTimelineElement
+          className="testing"
+          date="02/2022 - 04/2022"
+          dateClassName={"date__timeline"}
+          contentStyle={
+            theme === "light"
+              ? { background: "white" }
+              : { background: "#dbdbdb" }
+          }
+          iconStyle={
+            theme === "light"
+              ? { background: "#AE944F", color: "#fff" }
+              : { background: "#919191" }
+          }
+          icon={<MdComputer />}
+        >
+          <div>
+            <h3 className="experience__title text-lg 2xl:text-2xl">
+              {experience.jobs[2].title}
+            </h3>
+            <h4 className="experience__sub text-sm 2xl:text-xl">
+              {experience.jobs[2].workplace}
+            </h4>
+            <p className="experience__sub">{experience.jobs[2].description}</p>
+          </div>
+        </VerticalTimelineElement>
         <VerticalTimelineElement
           className="testing"
           date="08/2021 - 11/2021"

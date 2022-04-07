@@ -34,6 +34,11 @@
                 "title":"Web Application Developer and IT Support",
                 "workplace":"Aeromater S.A. - Perú",
                 "description":"Development of virtual document management application with HTML5 | Tailwind CSS | PHP | Laravel | MySQL"
+            },
+            {
+                "title":"Frontend Developer",
+                "workplace":"EDteam - Perú",
+                "description":"Development of components for the old and new course platform, using React | Next.js | typescript | JavaScript | Redux"
             }
         ]
     }
